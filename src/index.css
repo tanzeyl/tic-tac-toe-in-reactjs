@@ -23,7 +23,7 @@ h1 {
 
 .board {
   border-radius: 12px;
-  background: rgba(207, 0, 15, 1);
+  background: #ffdead;
   width: 500px;
   height: 500px;
   display: grid;
@@ -32,10 +32,9 @@ h1 {
 }
 
 .squares {
-  background: rgba(240, 52, 52, 1);
+  background: rgba(0, 0, 0, 0.9);
   border: none;
   font-size: 5rem;
-  /* font-weight: 800; */
   cursor: pointer;
   outline: none;
 }
